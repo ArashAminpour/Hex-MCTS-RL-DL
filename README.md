@@ -1,7 +1,6 @@
 # Hex-MCTS-RL-DL
+
 This Git repository contains the code for an AI agent that plays the board game Hex using a combination of Monte Carlo Tree Search (MCTS), Reinforcement Learning (RL), and Deep Learning (DL).
-
-
 
 # File Structure
 
@@ -12,15 +11,19 @@ This Git repository contains the code for an AI agent that plays the board game 
 - main.py - The entry point of the program, where the game, MCTS, RL, and DL components are all brought together to play Hex.
 
 # Getting Started
+
 Clone the repository: git clone https://github.com/<username>/Hex-MCTS-RL-DL.git
-  
+
 Navigate to the project directory: cd Hex-MCTS-RL-DL
-  
+
 Install the necessary dependencies: pip install -r requirements.txt
-  
+
 Run the program: python main.py
-  
+
 # Dependencies
+
 Python 3.10
+
 # Authors
+
 Arash Aminpour and Simen Vold Qvam
