@@ -22,11 +22,14 @@ while True:
     for i in range(11):
         for j in range(11):
             if board[i][j] == 0:
-                pygame.draw.polygon(screen, (255, 255, 255), [(i*50, j*50), (i*50+25, j*50-25), (i*50+50, j*50), (i*50+25, j*50+25), (i*50, j*50)], 0)
+                pygame.draw.polygon(screen, (255, 255, 255), [(
+                    i*50, j*50), (i*50+25, j*50-25), (i*50+50, j*50), (i*50+25, j*50+25), (i*50, j*50)], 0)
             elif board[i][j] == 1:
-                pygame.draw.polygon(screen, (255, 0, 0), [(i*50, j*50), (i*50+25, j*50-25), (i*50+50, j*50), (i*50+25, j*50+25), (i*50, j*50)], 0)
+                pygame.draw.polygon(screen, (255, 0, 0), [(
+                    i*50, j*50), (i*50+25, j*50-25), (i*50+50, j*50), (i*50+25, j*50+25), (i*50, j*50)], 0)
             elif board[i][j] == 2:
-                pygame.draw.polygon(screen, (0, 0, 255), [(i*50, j*50), (i*50+25, j*50-25), (i*50+50, j*50), (i*50+25, j*50+25), (i*50, j*50)], 0)
+                pygame.draw.polygon(screen, (0, 0, 255), [(
+                    i*50, j*50), (i*50+25, j*50-25), (i*50+50, j*50), (i*50+25, j*50+25), (i*50, j*50)], 0)
 
     # Update the display
     pygame.display.flip()
