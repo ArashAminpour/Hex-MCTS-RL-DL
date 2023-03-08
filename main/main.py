@@ -1,6 +1,23 @@
+
 import sys
+import pygame
 
-print("hjelm")
+from game.board import Board
+from game.board_visualizer import BoardVisualizer
 
-print(sys.version)
 
+board = Board(6, starting_player=None)
+
+
+visulazation = BoardVisualizer(board)
+visulazation.run()
+
+"""
+# Keep the visualization on screen until user exits
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+    pygame.display.update()
+"""
